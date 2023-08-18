@@ -1,10 +1,8 @@
 ---
-title: WebGLRenderingContext.attachShader()
+title: "WebGLRenderingContext: attachShader() method"
+short-title: attachShader()
 slug: Web/API/WebGLRenderingContext/attachShader
 page-type: web-api-instance-method
-tags:
-  - Method
-  - WebGL
 browser-compat: api.WebGLRenderingContext.attachShader
 ---
 
@@ -15,8 +13,8 @@ vertex {{domxref("WebGLShader")}} to a {{domxref("WebGLProgram")}}.
 
 ## Syntax
 
-```js
-void gl.attachShader(program, shader);
+```js-nolint
+attachShader(program, shader)
 ```
 
 ### Parameters

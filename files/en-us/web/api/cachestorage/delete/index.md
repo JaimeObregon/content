@@ -1,15 +1,8 @@
 ---
-title: CacheStorage.delete()
+title: "CacheStorage: delete() method"
+short-title: delete()
 slug: Web/API/CacheStorage/delete
 page-type: web-api-instance-method
-tags:
-  - API
-  - CacheStorage
-  - Method
-  - Reference
-  - Service Workers
-  - ServiceWorker
-  - delete
 browser-compat: api.CacheStorage.delete
 ---
 
@@ -22,7 +15,7 @@ You can access `CacheStorage` through the global {{domxref("caches")}} property.
 
 ## Syntax
 
-```js
+```js-nolint
 delete(cacheName)
 ```
 
@@ -47,8 +40,8 @@ check each key to see if it is in the array. If not, we delete it using
 `delete()`.
 
 ```js
-this.addEventListener('activate', (event) => {
-  const cachesToKeep = ['v2'];
+this.addEventListener("activate", (event) => {
+  const cachesToKeep = ["v2"];
 
   event.waitUntil(
     caches.keys().then((keyList) =>
@@ -57,9 +50,9 @@ this.addEventListener('activate', (event) => {
           if (!cachesToKeep.includes(key)) {
             return caches.delete(key);
           }
-        })
-      )
-    )
+        }),
+      ),
+    ),
   );
 });
 ```

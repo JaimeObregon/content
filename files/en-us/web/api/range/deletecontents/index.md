@@ -1,12 +1,8 @@
 ---
-title: Range.deleteContents()
+title: "Range: deleteContents() method"
+short-title: deleteContents()
 slug: Web/API/Range/deleteContents
 page-type: web-api-instance-method
-tags:
-  - API
-  - DOM
-  - Method
-  - Range
 browser-compat: api.Range.deleteContents
 ---
 
@@ -20,7 +16,7 @@ Unlike {{ domxref("Range.extractContents()") }}, this method does not return a
 
 ## Syntax
 
-```js
+```js-nolint
 deleteContents()
 ```
 

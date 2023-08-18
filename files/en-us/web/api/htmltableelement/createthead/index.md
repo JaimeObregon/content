@@ -1,14 +1,8 @@
 ---
-title: HTMLTableElement.createTHead()
+title: "HTMLTableElement: createTHead() method"
+short-title: createTHead()
 slug: Web/API/HTMLTableElement/createTHead
 page-type: web-api-instance-method
-tags:
-  - API
-  - HTML DOM
-  - HTMLTableElement
-  - Method
-  - NeedsSpecTable
-  - Reference
 browser-compat: api.HTMLTableElement.createTHead
 ---
 
@@ -26,7 +20,7 @@ method creates it, and then returns it.
 
 ## Syntax
 
-```js
+```js-nolint
 createTHead()
 ```
 

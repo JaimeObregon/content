@@ -1,13 +1,8 @@
 ---
-title: Range.isPointInRange()
+title: "Range: isPointInRange() method"
+short-title: isPointInRange()
 slug: Web/API/Range/isPointInRange
 page-type: web-api-instance-method
-tags:
-  - API
-  - DOM
-  - Method
-  - Range
-  - Reference
 browser-compat: api.Range.isPointInRange
 ---
 
@@ -20,7 +15,7 @@ indicating whether the given point is in the {{domxref("Range")}}. It returns
 
 ## Syntax
 
-```js
+```js-nolint
 isPointInRange(referenceNode, offset)
 ```
 
@@ -41,7 +36,7 @@ A boolean.
 ```js
 range = document.createRange();
 range.selectNode(document.getElementsByTagName("div").item(0));
-bool = range.isPointInRange(document.getElementsByTagName("p").item(0),1);
+bool = range.isPointInRange(document.getElementsByTagName("p").item(0), 1);
 ```
 
 ## Specifications

@@ -1,14 +1,8 @@
 ---
-title: Window.alert()
+title: "Window: alert() method"
+short-title: alert()
 slug: Web/API/Window/alert
 page-type: web-api-instance-method
-tags:
-  - API
-  - HTML DOM
-  - Method
-  - Reference
-  - Window
-  - alert
 browser-compat: api.Window.alert
 ---
 
@@ -20,7 +14,7 @@ Under some conditions — for example, when the user switches tabs — the brows
 
 ## Syntax
 
-```js
+```js-nolint
 alert()
 alert(message)
 ```

@@ -1,13 +1,8 @@
 ---
-title: CSSCounterStyleRule.range
+title: "CSSCounterStyleRule: range property"
+short-title: range
 slug: Web/API/CSSCounterStyleRule/range
 page-type: web-api-instance-property
-tags:
-  - API
-  - Property
-  - Reference
-  - range
-  - CSSCounterStyleRule
 browser-compat: api.CSSCounterStyleRule.range
 ---
 
@@ -27,7 +22,9 @@ The following example shows a {{cssxref("@counter-style")}} rule. In JavaScript,
 @counter-style range-multi-example {
   system: cyclic;
   symbols: "\25A0" "\25A1";
-  range: 2 4, 7 9;
+  range:
+    2 4,
+    7 9;
 }
 ```
 

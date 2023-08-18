@@ -1,15 +1,11 @@
 ---
-title: MediaStreamEvent.stream
+title: "MediaStreamEvent: stream property"
+short-title: stream
 slug: Web/API/MediaStreamEvent/stream
 page-type: web-api-instance-property
-tags:
-  - MediaStreamEvent
-  - Property
-  - Read-only
-  - Reference
-  - WebRTC
-  - Deprecated
-  - Non-standard
+status:
+  - deprecated
+  - non-standard
 browser-compat: api.MediaStreamEvent.stream
 ---
 
@@ -20,8 +16,8 @@ the {{domxref("MediaStream")}} associated with the event.
 
 ## Syntax
 
-```js
- const stream = event.stream;
+```js-nolint
+event.stream
 ```
 
 ## Example

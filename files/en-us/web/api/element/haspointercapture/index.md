@@ -1,15 +1,8 @@
 ---
-title: Element.hasPointerCapture()
+title: "Element: hasPointerCapture() method"
+short-title: hasPointerCapture()
 slug: Web/API/Element/hasPointerCapture
 page-type: web-api-instance-method
-tags:
-  - API
-  - DOM
-  - Element
-  - Method
-  - PointerEvent
-  - Reference
-  - hasPointerCapture
 browser-compat: api.Element.hasPointerCapture
 ---
 
@@ -21,7 +14,7 @@ pointer capture for the pointer identified by the given pointer ID.
 
 ## Syntax
 
-```js
+```js-nolint
 hasPointerCapture(pointerId)
 ```
 

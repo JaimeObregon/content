@@ -1,13 +1,8 @@
 ---
-title: WebGLRenderingContext.pixelStorei()
+title: "WebGLRenderingContext: pixelStorei() method"
+short-title: pixelStorei()
 slug: Web/API/WebGLRenderingContext/pixelStorei
 page-type: web-api-instance-method
-tags:
-  - API
-  - Method
-  - Reference
-  - WebGL
-  - WebGLRenderingContext
 browser-compat: api.WebGLRenderingContext.pixelStorei
 ---
 
@@ -17,7 +12,7 @@ The **`WebGLRenderingContext.pixelStorei()`** method of the [WebGL API](/en-US/d
 
 ## Syntax
 
-```js
+```js-nolint
 pixelStorei(pname, param)
 ```
 

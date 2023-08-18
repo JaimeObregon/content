@@ -1,14 +1,10 @@
 ---
-title: CustomStateSet.values()
+title: "CustomStateSet: values() method"
+short-title: values()
 slug: Web/API/CustomStateSet/values
 page-type: web-api-instance-method
-tags:
-  - API
-  - Method
-  - Reference
-  - values
-  - CustomStateSet
-  - Experimental
+status:
+  - experimental
 browser-compat: api.CustomStateSet.values
 ---
 
@@ -18,7 +14,7 @@ The **`values()`** method of the {{domxref("CustomStateSet")}} interface returns
 
 ## Syntax
 
-```js
+```js-nolint
 values()
 ```
 

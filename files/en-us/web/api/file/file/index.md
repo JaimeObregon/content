@@ -1,12 +1,8 @@
 ---
-title: File()
+title: "File: File() constructor"
+short-title: File()
 slug: Web/API/File/File
 page-type: web-api-constructor
-tags:
-  - API
-  - Constructor
-  - File API
-  - Reference
 browser-compat: api.File.File
 ---
 
@@ -17,7 +13,7 @@ object instance.
 
 ## Syntax
 
-```js
+```js-nolint
 new File(bits, name)
 new File(bits, name, options)
 ```

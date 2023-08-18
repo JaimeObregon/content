@@ -1,13 +1,10 @@
 ---
-title: USBConnectionEvent()
+title: "USBConnectionEvent: USBConnectionEvent() constructor"
+short-title: USBConnectionEvent()
 slug: Web/API/USBConnectionEvent/USBConnectionEvent
 page-type: web-api-constructor
-tags:
-  - API
-  - Constructor
-  - Reference
-  - USBConnectionEvent
-  - Experimental
+status:
+  - experimental
 browser-compat: api.USBConnectionEvent.USBConnectionEvent
 ---
 
@@ -19,7 +16,7 @@ it is created by the browser in response to the connection and disconnection of 
 
 ## Syntax
 
-```js
+```js-nolint
 new USBConnectionEvent(type, options)
 ```
 

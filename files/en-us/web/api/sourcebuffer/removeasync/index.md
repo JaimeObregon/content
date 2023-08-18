@@ -1,20 +1,11 @@
 ---
-title: SourceBuffer.removeAsync()
+title: "SourceBuffer: removeAsync() method"
+short-title: removeAsync()
 slug: Web/API/SourceBuffer/removeAsync
 page-type: web-api-instance-method
-tags:
-  - API
-  - Audio
-  - MSE
-  - Media
-  - Media Source Extensions
-  - Method
-  - Non-standard
-  - Reference
-  - SourceBuffer
-  - Video
-  - removeAsync
-  - Experimental
+status:
+  - experimental
+  - non-standard
 browser-compat: api.SourceBuffer.removeAsync
 ---
 
@@ -32,7 +23,7 @@ This method can only be called when {{domxref("SourceBuffer.updating", "updating
 
 ## Syntax
 
-```js
+```js-nolint
 removeAsync(start, end)
 ```
 

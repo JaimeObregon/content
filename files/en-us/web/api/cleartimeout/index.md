@@ -1,13 +1,8 @@
 ---
-title: clearTimeout()
+title: clearTimeout() global function
+short-title: clearTimeout()
 slug: Web/API/clearTimeout
 page-type: web-api-global-function
-tags:
-  - API
-  - HTML DOM
-  - Method
-  - Reference
-  - clearTimeout
 browser-compat: api.clearTimeout
 ---
 
@@ -21,7 +16,7 @@ this method does nothing.
 
 ## Syntax
 
-```js
+```js-nolint
 clearTimeout(timeoutID)
 ```
 
@@ -56,20 +51,24 @@ const alarm = {
   },
 
   setup() {
-    if (typeof this.timeoutID === 'number') {
+    if (typeof this.timeoutID === "number") {
       this.cancel();
     }
 
-    this.timeoutID = setTimeout((msg) => {
-      this.remind(msg);
-    }, 1000, 'Wake up!');
+    this.timeoutID = setTimeout(
+      (msg) => {
+        this.remind(msg);
+      },
+      1000,
+      "Wake up!",
+    );
   },
 
   cancel() {
     clearTimeout(this.timeoutID);
-  }
+  },
 };
-window.addEventListener('click', () => alarm.setup());
+window.addEventListener("click", () => alarm.setup());
 ```
 
 ## Notes

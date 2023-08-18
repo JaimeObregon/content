@@ -1,14 +1,10 @@
 ---
-title: PresentationRequest()
+title: "PresentationRequest: PresentationRequest() constructor"
+short-title: PresentationRequest()
 slug: Web/API/PresentationRequest/PresentationRequest
 page-type: web-api-constructor
-tags:
-  - API
-  - Constructor
-  - Experimental
-  - Presentation API
-  - PresentationRequest
-  - Reference
+status:
+  - experimental
 browser-compat: api.PresentationRequest.PresentationRequest
 ---
 
@@ -20,7 +16,7 @@ new PresentationRequest.
 
 ## Syntax
 
-```js
+```js-nolint
 new PresentationRequest(url)
 new PresentationRequest(urls)
 ```

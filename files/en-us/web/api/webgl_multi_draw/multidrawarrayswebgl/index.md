@@ -1,12 +1,8 @@
 ---
-title: WEBGL_multi_draw.multiDrawArraysWEBGL()
+title: "WEBGL_multi_draw: multiDrawArraysWEBGL() method"
+short-title: multiDrawArraysWEBGL()
 slug: Web/API/WEBGL_multi_draw/multiDrawArraysWEBGL
 page-type: webgl-extension-method
-tags:
-  - Method
-  - Reference
-  - WebGL
-  - WebGL extension
 browser-compat: api.WEBGL_multi_draw.multiDrawArraysWEBGL
 ---
 
@@ -21,8 +17,8 @@ method.
 
 ## Syntax
 
-```js
-void ext.multiDrawArraysWEBGL(mode,
+```js-nolint
+multiDrawArraysWEBGL(mode,
     firstsList, firstsOffset,
     countsList, countsOffset,
     drawCount);

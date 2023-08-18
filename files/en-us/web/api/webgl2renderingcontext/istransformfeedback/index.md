@@ -1,13 +1,8 @@
 ---
-title: WebGL2RenderingContext.isTransformFeedback()
+title: "WebGL2RenderingContext: isTransformFeedback() method"
+short-title: isTransformFeedback()
 slug: Web/API/WebGL2RenderingContext/isTransformFeedback
 page-type: web-api-instance-method
-tags:
-  - API
-  - Method
-  - Reference
-  - WebGL
-  - WebGL2
 browser-compat: api.WebGL2RenderingContext.isTransformFeedback
 ---
 
@@ -19,7 +14,7 @@ if the passed object is a valid {{domxref("WebGLTransformFeedback")}} object.
 
 ## Syntax
 
-```js
+```js-nolint
 isTransformFeedback(transformFeedback)
 ```
 

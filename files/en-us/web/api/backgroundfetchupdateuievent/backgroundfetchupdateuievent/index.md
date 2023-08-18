@@ -1,13 +1,10 @@
 ---
-title: BackgroundFetchUpdateUIEvent()
+title: "BackgroundFetchUpdateUIEvent: BackgroundFetchUpdateUIEvent() constructor"
+short-title: BackgroundFetchUpdateUIEvent()
 slug: Web/API/BackgroundFetchUpdateUIEvent/BackgroundFetchUpdateUIEvent
 page-type: web-api-constructor
-tags:
-  - API
-  - Constructor
-  - Reference
-  - BackgroundFetchUpdateUIEvent
-  - Experimental
+status:
+  - experimental
 browser-compat: api.BackgroundFetchUpdateUIEvent.BackgroundFetchUpdateUIEvent
 ---
 
@@ -17,7 +14,7 @@ The **`BackgroundFetchUpdateUIEvent()`** constructor creates a new {{domxref("Ba
 
 ## Syntax
 
-```js
+```js-nolint
 new BackgroundFetchEvent(type, options)
 ```
 

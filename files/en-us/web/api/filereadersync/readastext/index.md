@@ -1,5 +1,6 @@
 ---
-title: FileReaderSync.readAsText()
+title: "FileReaderSync: readAsText() method"
+short-title: readAsText()
 slug: Web/API/FileReaderSync/readAsText
 page-type: web-api-instance-method
 browser-compat: api.FileReaderSync.readAsText
@@ -11,11 +12,11 @@ The `readAsText()` method of the {{DOMxRef("FileReaderSync")}} interface allows 
 
 ## Syntax
 
-```js
-readAsText(File);
-readAsText(Blob);
-readAsText(File, encoding);
-readAsText(Blob, encoding);
+```js-nolint
+readAsText(File)
+readAsText(Blob)
+readAsText(File, encoding)
+readAsText(Blob, encoding)
 ```
 
 ### Parameters

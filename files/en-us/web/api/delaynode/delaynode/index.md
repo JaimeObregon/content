@@ -1,15 +1,8 @@
 ---
-title: DelayNode()
+title: "DelayNode: DelayNode() constructor"
+short-title: DelayNode()
 slug: Web/API/DelayNode/DelayNode
 page-type: web-api-constructor
-tags:
-  - API
-  - Audio
-  - Constructor
-  - DelayNode
-  - Media
-  - Reference
-  - Web Audio API
 browser-compat: api.DelayNode.DelayNode
 ---
 
@@ -23,7 +16,7 @@ its propagation to the output.
 
 ## Syntax
 
-```js
+```js-nolint
 new DelayNode(context)
 new DelayNode(context, options)
 ```

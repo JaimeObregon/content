@@ -1,13 +1,8 @@
 ---
-title: CSSCounterStyleRule.symbols
+title: "CSSCounterStyleRule: symbols property"
+short-title: symbols
 slug: Web/API/CSSCounterStyleRule/symbols
 page-type: web-api-instance-property
-tags:
-  - API
-  - Property
-  - Reference
-  - symbols
-  - CSSCounterStyleRule
 browser-compat: api.CSSCounterStyleRule.symbols
 ---
 
@@ -27,7 +22,7 @@ The following example shows a {{cssxref("@counter-style")}} rule. In JavaScript,
 @counter-style box-corner {
   system: fixed;
   symbols: ◰ ◳ ◲ ◱;
-  suffix: ': ';
+  suffix: ": ";
   negative: "-";
 }
 ```

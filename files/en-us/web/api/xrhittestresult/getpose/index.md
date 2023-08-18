@@ -1,16 +1,10 @@
 ---
-title: XRHitTestResult.getPose()
+title: "XRHitTestResult: getPose() method"
+short-title: getPose()
 slug: Web/API/XRHitTestResult/getPose
 page-type: web-api-instance-method
-tags:
-  - API
-  - Method
-  - Reference
-  - AR
-  - VR
-  - XR
-  - WebXR
-  - Experimental
+status:
+  - experimental
 browser-compat: api.XRHitTestResult.getPose
 ---
 
@@ -20,7 +14,7 @@ The **`getPose()`** method of the {{domxref("XRHitTestResult")}} interface retur
 
 ## Syntax
 
-```js
+```js-nolint
 getPose(baseSpace)
 ```
 

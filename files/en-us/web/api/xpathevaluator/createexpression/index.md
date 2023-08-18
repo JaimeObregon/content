@@ -1,15 +1,8 @@
 ---
-title: XPathEvaluator.createExpression()
+title: "XPathEvaluator: createExpression() method"
+short-title: createExpression()
 slug: Web/API/XPathEvaluator/createExpression
 page-type: web-api-instance-method
-tags:
-  - API
-  - DOM
-  - DOM XPath API
-  - Method
-  - Reference
-  - XPath
-  - XPathEvaluator
 browser-compat: api.XPathEvaluator.createExpression
 ---
 
@@ -20,7 +13,7 @@ This method compiles an {{domxref("XPathExpression")}} which can then be used fo
 
 ## Syntax
 
-```js
+```js-nolint
 createExpression(expression)
 createExpression(expression, resolver)
 ```
@@ -69,7 +62,10 @@ The following example shows the use of the `evaluate()` method.
 const xpath = "//div";
 const evaluator = new XPathEvaluator();
 const expression = evaluator.createExpression(xpath);
-const result = expression.evaluate(document, XPathResult.ORDERED_NODE_SNAPSHOT_TYPE);
+const result = expression.evaluate(
+  document,
+  XPathResult.ORDERED_NODE_SNAPSHOT_TYPE,
+);
 document.querySelector("output").textContent = result.snapshotLength;
 ```
 

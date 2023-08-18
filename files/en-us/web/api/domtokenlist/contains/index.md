@@ -1,10 +1,8 @@
 ---
-title: DOMTokenList.contains()
+title: "DOMTokenList: contains() method"
+short-title: contains()
 slug: Web/API/DOMTokenList/contains
 page-type: web-api-instance-method
-tags:
-  - Method
-  - Reference
 browser-compat: api.DOMTokenList.contains
 ---
 
@@ -16,8 +14,8 @@ otherwise `false`.
 
 ## Syntax
 
-```js
-contains(token);
+```js-nolint
+contains(token)
 ```
 
 ### Parameters

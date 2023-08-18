@@ -1,10 +1,10 @@
 ---
-title: FileReaderSync.readAsBinaryString()
+title: "FileReaderSync: readAsBinaryString() method"
+short-title: readAsBinaryString()
 slug: Web/API/FileReaderSync/readAsBinaryString
 page-type: web-api-instance-method
-tags:
-  - Reference
-  - Deprecated
+status:
+  - deprecated
 browser-compat: api.FileReaderSync.readAsBinaryString
 ---
 
@@ -16,9 +16,9 @@ The `readAsBinaryString()` method of the {{DOMxRef("FileReaderSync")}} interface
 
 ## Syntax
 
-```js
-readAsBinaryString(File);
-readAsBinaryString(Blob);
+```js-nolint
+readAsBinaryString(File)
+readAsBinaryString(Blob)
 ```
 
 ### Parameters

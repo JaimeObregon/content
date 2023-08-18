@@ -1,15 +1,8 @@
 ---
-title: AudioNode.disconnect()
+title: "AudioNode: disconnect() method"
+short-title: disconnect()
 slug: Web/API/AudioNode/disconnect
 page-type: web-api-instance-method
-tags:
-  - API
-  - Audio
-  - AudioNode
-  - Disconnect
-  - Method
-  - Reference
-  - Web Audio API
 browser-compat: api.AudioNode.disconnect
 ---
 
@@ -19,7 +12,7 @@ The **`disconnect()`** method of the {{ domxref("AudioNode") }} interface lets y
 
 ## Syntax
 
-```js
+```js-nolint
 disconnect()
 ```
 

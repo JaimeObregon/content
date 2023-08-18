@@ -1,13 +1,8 @@
 ---
-title: Blob.slice()
+title: "Blob: slice() method"
+short-title: slice()
 slug: Web/API/Blob/slice
 page-type: web-api-instance-method
-tags:
-  - API
-  - Blob
-  - File API
-  - Method
-  - Reference
 browser-compat: api.Blob.slice
 ---
 
@@ -19,7 +14,7 @@ the blob on which it's called.
 
 ## Syntax
 
-```js
+```js-nolint
 slice()
 slice(start)
 slice(start, end)

@@ -1,13 +1,8 @@
 ---
-title: CSSCounterStyleRule.suffix
+title: "CSSCounterStyleRule: suffix property"
+short-title: suffix
 slug: Web/API/CSSCounterStyleRule/suffix
 page-type: web-api-instance-property
-tags:
-  - API
-  - Property
-  - Reference
-  - suffix
-  - CSSCounterStyleRule
 browser-compat: api.CSSCounterStyleRule.suffix
 ---
 
@@ -27,7 +22,7 @@ The following example shows a {{cssxref("@counter-style")}} rule. In JavaScript,
 @counter-style box-corner {
   system: fixed;
   symbols: ◰ ◳ ◲ ◱;
-  suffix: ': ';
+  suffix: ": ";
   negative: "-";
 }
 ```

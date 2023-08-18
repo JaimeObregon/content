@@ -1,11 +1,8 @@
 ---
-title: PictureInPictureEvent()
+title: "PictureInPictureEvent: PictureInPictureEvent() constructor"
+short-title: PictureInPictureEvent()
 slug: Web/API/PictureInPictureEvent/PictureInPictureEvent
 page-type: web-api-constructor
-tags:
-  - Reference
-  - API
-  - Constructor
 browser-compat: api.PictureInPictureEvent.PictureInPictureEvent
 ---
 
@@ -16,7 +13,7 @@ When the event has both a source and a destination, the `relatedTarget` value mu
 
 ## Syntax
 
-```js
+```js-nolint
 new PictureInPictureEvent(type, options)
 ```
 

@@ -1,14 +1,11 @@
 ---
-title: Document.queryCommandEnabled()
+title: "Document: queryCommandEnabled() method"
+short-title: queryCommandEnabled()
 slug: Web/API/Document/queryCommandEnabled
 page-type: web-api-instance-method
-tags:
-  - CSS
-  - Document
-  - Method
-  - Reference
-  - Deprecated
-  - Non-standard
+status:
+  - deprecated
+  - non-standard
 browser-compat: api.Document.queryCommandEnabled
 ---
 
@@ -19,8 +16,8 @@ or not the specified editor command is enabled by the browser.
 
 ## Syntax
 
-```js
-isEnabled = document.queryCommandEnabled(command);
+```js-nolint
+document.queryCommandEnabled(command)
 ```
 
 ### Parameters

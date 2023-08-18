@@ -1,13 +1,10 @@
 ---
-title: BackgroundFetchEvent()
+title: "BackgroundFetchEvent: BackgroundFetchEvent() constructor"
+short-title: BackgroundFetchEvent()
 slug: Web/API/BackgroundFetchEvent/BackgroundFetchEvent
 page-type: web-api-constructor
-tags:
-  - API
-  - Constructor
-  - Reference
-  - BackgroundFetchEvent
-  - Experimental
+status:
+  - experimental
 browser-compat: api.BackgroundFetchEvent.BackgroundFetchEvent
 ---
 
@@ -17,7 +14,7 @@ The **`BackgroundFetchEvent()`** constructor creates a new {{domxref("Background
 
 ## Syntax
 
-```js
+```js-nolint
 new BackgroundFetchEvent(type, options)
 ```
 

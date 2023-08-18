@@ -1,12 +1,8 @@
 ---
-title: Range.collapse()
+title: "Range: collapse() method"
+short-title: collapse()
 slug: Web/API/Range/collapse
 page-type: web-api-instance-method
-tags:
-  - API
-  - DOM
-  - Method
-  - Range
 browser-compat: api.Range.collapse
 ---
 
@@ -21,7 +17,7 @@ see the {{domxref("Range.collapsed")}} property.
 
 ## Syntax
 
-```js
+```js-nolint
 collapse()
 collapse(toStart)
 ```

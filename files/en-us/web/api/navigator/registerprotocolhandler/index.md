@@ -1,15 +1,8 @@
 ---
-title: Navigator.registerProtocolHandler()
+title: "Navigator: registerProtocolHandler() method"
+short-title: registerProtocolHandler()
 slug: Web/API/Navigator/registerProtocolHandler
 page-type: web-api-instance-method
-tags:
-  - API
-  - HTML DOM
-  - Method
-  - Navigator
-  - Reference
-  - Web-Based Protocol Handlers
-  - registerProtocolHandler
 browser-compat: api.Navigator.registerProtocolHandler
 ---
 
@@ -21,12 +14,9 @@ For example, this API lets webmail sites open `mailto:` URLs, or VoIP sites open
 
 ## Syntax
 
-```js
+```js-nolint
 registerProtocolHandler(scheme, url)
-registerProtocolHandler(scheme, url, title)
 ```
-
-> **Note:** The version with the deprecated `title` argument is recommended for compatibility reasons (see parameter information below).
 
 ### Parameters
 
@@ -42,15 +32,6 @@ registerProtocolHandler(scheme, url, title)
 
     > **Note:** The handler URL must use the `https` scheme. Older browsers also supported `http`.
 
-- `title` {{deprecated_inline}}
-
-  - : A human-readable title string for the handler.
-    **This will be displayed to the user**, such as prompting "Allow this site to handle \[scheme] links?" or listing registered handlers in the browser's settings.
-
-    > **Note:** The title has been removed from the spec due to spoofing concerns.
-    > The `title` should still be set because some browsers **still require it** (see the [compatibility table below](#browser_compatibility)).
-    > Browsers that support the updated spec most likely will be accept but ignore the title.
-
 ### Return value
 
 None ({{jsxref("undefined")}}).
@@ -58,6 +39,7 @@ None ({{jsxref("undefined")}}).
 ### Exceptions
 
 - `SecurityError` {{domxref("DOMException")}}
+
   - : The user agent blocked the registration.
     This might happen if:
 
@@ -115,9 +97,10 @@ Otherwise, the scheme must be one of the following:
 If your site is `burgers.example.com`, you can register a protocol handler for it to handle `web+burger:` links, like so:
 
 ```js
-navigator.registerProtocolHandler("web+burger",
-                                  "https://burgers.example.com/?burger=%s",
-                                  "Burger handler"); // last title arg included for compatibility
+navigator.registerProtocolHandler(
+  "web+burger",
+  "https://burgers.example.com/?burger=%s",
+);
 ```
 
 This creates a handler that lets `web+burger:` links send the user to your site, inserting the accessed burger URL into the `%s` placeholder.

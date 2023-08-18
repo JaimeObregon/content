@@ -1,14 +1,8 @@
 ---
-title: WebGLRenderingContext.texImage2D()
+title: "WebGLRenderingContext: texImage2D() method"
+short-title: texImage2D()
 slug: Web/API/WebGLRenderingContext/texImage2D
 page-type: web-api-instance-method
-tags:
-  - API
-  - Method
-  - Reference
-  - Textures
-  - WebGL
-  - WebGLRenderingContext
 browser-compat: api.WebGLRenderingContext.texImage2D
 ---
 
@@ -19,11 +13,9 @@ image.
 
 ## Syntax
 
-```js
+```js-nolint
 // WebGL1
-texImage2D(target, level, internalformat, width, height, border, format, type)
-texImage2D(target, level, internalformat, width, height, border, format, type, pixels) // pixels a TypedArray or a DataView
-texImage2D(target, level, internalformat, format, type)
+texImage2D(target, level, internalformat, width, height, border, format, type, pixels)
 texImage2D(target, level, internalformat, format, type, pixels)
 
 
@@ -715,10 +707,11 @@ texImage2D(target, level, internalformat, width, height, border, format, type, s
     - `gl.LUMINANCE`: Each color component is a luminance component, alpha is
       1.0.
     - `gl.LUMINANCE_ALPHA`: Each component is a luminance/alpha component.
+
     When using the {{domxref("WEBGL_depth_texture")}} extension:
 
-      - `gl.DEPTH_COMPONENT`
-      - `gl.DEPTH_STENCIL`
+    - `gl.DEPTH_COMPONENT`
+    - `gl.DEPTH_STENCIL`
 
     When using the {{domxref("EXT_sRGB")}} extension:
 
@@ -726,7 +719,7 @@ texImage2D(target, level, internalformat, width, height, border, format, type, s
     - `ext.SRGB_ALPHA_EXT`
 
     When using a {{domxref("WebGL2RenderingContext", "WebGL 2 context", "", 1)}}, the
-      following values are available additionally:
+    following values are available additionally:
 
     - `gl.R8`
     - `gl.R16F`
@@ -775,12 +768,12 @@ texImage2D(target, level, internalformat, width, height, border, format, type, s
       alpha bits.
     - `gl.UNSIGNED_SHORT_5_5_5_1`: 5 red bits, 5 green bits, 5 blue bits, 1
       alpha bit.
+
     When using the {{domxref("WEBGL_depth_texture")}} extension:
 
-      - `gl.UNSIGNED_SHORT`
-      - `gl.UNSIGNED_INT`
-      - `ext.UNSIGNED_INT_24_8_WEBGL` (constant provided by the
-        extension)
+    - `gl.UNSIGNED_SHORT`
+    - `gl.UNSIGNED_INT`
+    - `ext.UNSIGNED_INT_24_8_WEBGL` (constant provided by the extension)
 
     - When using the {{domxref("OES_texture_float")}} extension:
 
@@ -791,7 +784,7 @@ texImage2D(target, level, internalformat, width, height, border, format, type, s
     - `ext.HALF_FLOAT_OES` (constant provided by the extension)
 
     When using a {{domxref("WebGL2RenderingContext", "WebGL 2 context", "", 1)}},
-      the following values are available additionally:
+    the following values are available additionally:
 
     - `gl.BYTE`
     - `gl.UNSIGNED_SHORT`
@@ -805,11 +798,19 @@ texImage2D(target, level, internalformat, width, height, border, format, type, s
     - `gl.UNSIGNED_INT_5_9_9_9_REV`
     - `gl.UNSIGNED_INT_24_8`
     - `gl.FLOAT_32_UNSIGNED_INT_24_8_REV` (pixels must be
-        [`null`](/en-US/docs/Web/JavaScript/Reference/Operators/null))
+      [`null`](/en-US/docs/Web/JavaScript/Reference/Operators/null))
 
 - `pixels`
 
-  - : One of the following objects can be used as a pixel source for the texture:
+  - : The following types can always be used as a pixel source for the texture:
+
+    - {{domxref("ImageData")}},
+    - {{domxref("HTMLImageElement")}},
+    - {{domxref("HTMLCanvasElement")}},
+    - {{domxref("HTMLVideoElement")}},
+    - {{domxref("ImageBitmap")}}.
+
+    The following types can only be used as a pixel source when `width`, `height`, and `border` are specified:
 
     - {{jsxref("Uint8Array")}} (must be used if `type` is `gl.UNSIGNED_BYTE`)
     - {{jsxref("Uint16Array")}} (must be used if `type` is either
@@ -818,11 +819,6 @@ texImage2D(target, level, internalformat, width, height, border, format, type, s
       `ext.HALF_FLOAT_OES`)
     - {{jsxref("Uint32Array")}} (must be used if `type` is `gl.UNSIGNED_INT` or `ext.UNSIGNED_INT_24_8_WEBGL`)
     - {{jsxref("Float32Array")}} (must be used if `type` is `gl.FLOAT`)
-    - {{domxref("ImageData")}},
-    - {{domxref("HTMLImageElement")}},
-    - {{domxref("HTMLCanvasElement")}},
-    - {{domxref("HTMLVideoElement")}},
-    - {{domxref("ImageBitmap")}}.
 
 - `offset`
   - : (WebGL 2 only) A {{domxref("WebGL_API/Types", "GLintptr")}} byte offset into the

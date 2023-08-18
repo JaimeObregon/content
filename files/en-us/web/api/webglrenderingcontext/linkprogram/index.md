@@ -1,13 +1,8 @@
 ---
-title: WebGLRenderingContext.linkProgram()
+title: "WebGLRenderingContext: linkProgram() method"
+short-title: linkProgram()
 slug: Web/API/WebGLRenderingContext/linkProgram
 page-type: web-api-instance-method
-tags:
-  - API
-  - Method
-  - Reference
-  - WebGL
-  - WebGLRenderingContext
 browser-compat: api.WebGLRenderingContext.linkProgram
 ---
 
@@ -20,7 +15,7 @@ program's fragment and vertex shaders.
 
 ## Syntax
 
-```js
+```js-nolint
 linkProgram(program)
 ```
 

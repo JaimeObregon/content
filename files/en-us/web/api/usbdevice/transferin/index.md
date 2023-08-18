@@ -1,17 +1,10 @@
 ---
-title: USBDevice.transferIn()
+title: "USBDevice: transferIn() method"
+short-title: transferIn()
 slug: Web/API/USBDevice/transferIn
 page-type: web-api-instance-method
-tags:
-  - API
-  - Method
-  - Reference
-  - USB
-  - USBDevice
-  - WebUSB
-  - WebUSB API
-  - transferIn
-  - Experimental
+status:
+  - experimental
 browser-compat: api.USBDevice.transferIn
 ---
 
@@ -24,7 +17,7 @@ device.
 
 ## Syntax
 
-```js
+```js-nolint
 transferIn(endpointNumber, length)
 ```
 

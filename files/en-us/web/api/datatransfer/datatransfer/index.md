@@ -1,14 +1,8 @@
 ---
-title: DataTransfer()
+title: "DataTransfer: DataTransfer() constructor"
+short-title: DataTransfer()
 slug: Web/API/DataTransfer/DataTransfer
 page-type: web-api-constructor
-tags:
-  - API
-  - Constructor
-  - DataTransfer
-  - HTML Drag and Drop API
-  - Reference
-  - drag and drop
 browser-compat: api.DataTransfer.DataTransfer
 ---
 
@@ -19,7 +13,7 @@ The **`DataTransfer`** constructor creates a new
 
 ## Syntax
 
-```js
+```js-nolint
 new DataTransfer()
 ```
 

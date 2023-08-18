@@ -1,12 +1,8 @@
 ---
-title: Range.cloneContents()
+title: "Range: cloneContents() method"
+short-title: cloneContents()
 slug: Web/API/Range/cloneContents
 page-type: web-api-instance-method
-tags:
-  - API
-  - DOM
-  - Method
-  - Range
 browser-compat: api.Range.cloneContents
 ---
 
@@ -26,7 +22,7 @@ fragment valid.
 
 ## Syntax
 
-```js
+```js-nolint
 cloneContents()
 ```
 

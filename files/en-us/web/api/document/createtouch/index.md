@@ -1,17 +1,11 @@
 ---
-title: Document.createTouch()
+title: "Document: createTouch() method"
+short-title: createTouch()
 slug: Web/API/Document/createTouch
 page-type: web-api-instance-method
-tags:
-  - API
-  - Deprecated
-  - HTML DOM
-  - Method
-  - Mobile
-  - Reference
-  - createTouch
-  - touch
-  - Non-standard
+status:
+  - deprecated
+  - non-standard
 browser-compat: api.Document.createTouch
 ---
 
@@ -23,7 +17,7 @@ The **`Document.createTouch()`** method creates and returns a new {{DOMxRef("Tou
 
 ## Syntax
 
-```js
+```js-nolint
 createTouch(view, target, identifier, pageX, pageY, screenX, screenY)
 ```
 

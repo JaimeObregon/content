@@ -1,5 +1,6 @@
 ---
-title: RTCIceTransport.getRemoteParameters()
+title: "RTCIceTransport: getRemoteParameters() method"
+short-title: getRemoteParameters()
 slug: Web/API/RTCIceTransport/getRemoteParameters
 page-type: web-api-instance-method
 browser-compat: api.RTCIceTransport.getRemoteParameters
@@ -18,8 +19,8 @@ transport when the client calls
 
 ## Syntax
 
-```js
-parameters = RTCIceTransport.getRemoteParameters();
+```js-nolint
+getRemoteParameters()
 ```
 
 ### Parameters

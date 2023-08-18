@@ -1,13 +1,8 @@
 ---
-title: TaskPriorityChangeEvent()
+title: "TaskPriorityChangeEvent: TaskPriorityChangeEvent() constructor"
+short-title: TaskPriorityChangeEvent()
 slug: Web/API/TaskPriorityChangeEvent/TaskPriorityChangeEvent
 page-type: web-api-constructor
-tags:
-  - API
-  - Constructor
-  - Reference
-  - TaskPriorityChangeEvent
-  - Prioritized Task Scheduling API
 browser-compat: api.TaskPriorityChangeEvent.TaskPriorityChangeEvent
 ---
 
@@ -19,13 +14,14 @@ This object is created with a value indicating the [previous priority](/en-US/do
 
 ## Syntax
 
-```js
+```js-nolint
 new TaskPriorityChangeEvent(type, options)
 ```
 
 ### Parameters
 
 - `type`
+
   - : A string with the case-sensitive name of the associated event.
     User agents set it to `"prioritychange"`.
 

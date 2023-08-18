@@ -1,15 +1,8 @@
 ---
-title: FileSystemFileEntry.file()
+title: "FileSystemFileEntry: file() method"
+short-title: file()
 slug: Web/API/FileSystemFileEntry/file
 page-type: web-api-instance-method
-tags:
-  - API
-  - File
-  - File and Directory Entries API
-  - FileSystemFileEntry
-  - Files
-  - Method
-  - Reference
 browser-compat: api.FileSystemFileEntry.file
 ---
 
@@ -22,7 +15,7 @@ the directory entry.
 
 ## Syntax
 
-```js
+```js-nolint
 file(successCallback)
 file(successCallback, errorCallback)
 ```
@@ -59,7 +52,7 @@ function readFile(entry, successCallback, errorCallback) {
 
     reader.onerror = () => {
       errorCallback(reader.error);
-    }
+    };
 
     reader.readAsText(file);
   }, errorCallback);

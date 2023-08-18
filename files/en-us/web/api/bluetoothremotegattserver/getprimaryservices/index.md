@@ -1,16 +1,10 @@
 ---
-title: BluetoothRemoteGATTServer.getPrimaryServices()
+title: "BluetoothRemoteGATTServer: getPrimaryServices() method"
+short-title: getPrimaryServices()
 slug: Web/API/BluetoothRemoteGATTServer/getPrimaryServices
 page-type: web-api-instance-method
-tags:
-  - API
-  - Bluetooth
-  - BluetoothRemoteGATTServer
-  - Experimental
-  - Method
-  - Reference
-  - Web Bluetooth API
-  - getPrimaryServices()
+status:
+  - experimental
 browser-compat: api.BluetoothRemoteGATTServer.getPrimaryServices
 ---
 
@@ -22,7 +16,7 @@ Bluetooth device for a specified `BluetoothServiceUUID`.
 
 ## Syntax
 
-```js
+```js-nolint
 getPrimaryServices(bluetoothServiceUUID)
 ```
 

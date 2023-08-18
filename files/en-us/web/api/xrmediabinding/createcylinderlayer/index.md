@@ -1,15 +1,10 @@
 ---
-title: XRMediaBinding.createCylinderLayer()
+title: "XRMediaBinding: createCylinderLayer() method"
+short-title: createCylinderLayer()
 slug: Web/API/XRMediaBinding/createCylinderLayer
 page-type: web-api-instance-method
-tags:
-  - API
-  - Method
-  - Reference
-  - AR
-  - XR
-  - WebXR
-  - Experimental
+status:
+  - experimental
 browser-compat: api.XRMediaBinding.createCylinderLayer
 ---
 
@@ -19,7 +14,7 @@ The **`createCylinderLayer()`** method of the {{domxref("XRMediaBinding")}} inte
 
 ## Syntax
 
-```js
+```js-nolint
 createCylinderLayer(video, options)
 ```
 
@@ -47,7 +42,7 @@ createCylinderLayer(video, options)
           - : A single {{domxref("XRSubImage")}} is allocated. Left eye gets the left area of the texture, right eye the right. This layout is designed to minimize draw calls for content that is already in stereo (for example stereo videos or images).
         - `stereo-top-bottom`
           - : A single {{domxref("XRSubImage")}} is allocated. Left eye gets the top area of the texture, right eye the bottom. This layout is designed to minimize draw calls for content that is already in stereo (for example stereo videos or images).
-        The default value is `mono`.
+            The default value is `mono`.
     - `radius` {{optional_inline}}
       - : A number indicating the radius of the cylinder. Default value `2.0`.
     - `space` **Required**
@@ -68,15 +63,15 @@ Create an {{domxref("XRMediaBinding")}} and use an {{domxref("HTMLVideoElement")
 ```js
 function onXRSessionStarted(xrSession) {
   const xrMediaBinding = new XRMediaBinding(xrSession);
-  const video = document.createElement('video');
-  video.src = 'just-fascination.mp4';
+  const video = document.createElement("video");
+  video.src = "just-fascination.mp4";
 
   const videoLayer = xrMediaBinding.createCylinderLayer(video, {
-    space: xrReferenceSpace
+    space: xrReferenceSpace,
   });
 
   xrSession.updateRenderState({
-    layers: [videoLayer]
+    layers: [videoLayer],
   });
 }
 ```

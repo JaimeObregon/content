@@ -1,13 +1,8 @@
 ---
-title: WebGLRenderingContext.clearColor()
+title: "WebGLRenderingContext: clearColor() method"
+short-title: clearColor()
 slug: Web/API/WebGLRenderingContext/clearColor
 page-type: web-api-instance-method
-tags:
-  - API
-  - Method
-  - Reference
-  - WebGL
-  - WebGLRenderingContext
 browser-compat: api.WebGLRenderingContext.clearColor
 ---
 
@@ -22,7 +17,7 @@ between 0 and 1.
 
 ## Syntax
 
-```js
+```js-nolint
 clearColor(red, green, blue, alpha)
 ```
 

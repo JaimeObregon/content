@@ -1,13 +1,10 @@
 ---
-title: PushManager.hasPermission()
+title: "PushManager: hasPermission() method"
+short-title: hasPermission()
 slug: Web/API/PushManager/hasPermission
 page-type: web-api-instance-method
-tags:
-  - API
-  - Deprecated
-  - Method
-  - PushManager
-  - Reference
+status:
+  - deprecated
 browser-compat: api.PushManager.hasPermission
 ---
 
@@ -19,7 +16,7 @@ The **`PushManager.hasPermission()`** method of the {{domxref("PushManager")}} i
 
 ## Syntax
 
-```js
+```js-nolint
 hasPermission()
 ```
 

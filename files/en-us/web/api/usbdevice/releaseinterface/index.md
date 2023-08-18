@@ -1,17 +1,10 @@
 ---
-title: USBDevice.releaseInterface()
+title: "USBDevice: releaseInterface() method"
+short-title: releaseInterface()
 slug: Web/API/USBDevice/releaseInterface
 page-type: web-api-instance-method
-tags:
-  - API
-  - Method
-  - Reference
-  - USB
-  - USBDevice
-  - WebUSB
-  - WebUSB API
-  - releaseInterface
-  - Experimental
+status:
+  - experimental
 browser-compat: api.USBDevice.releaseInterface
 ---
 
@@ -23,7 +16,7 @@ claimed interface is released from exclusive access.
 
 ## Syntax
 
-```js
+```js-nolint
 releaseInterface(interfaceNumber)
 ```
 

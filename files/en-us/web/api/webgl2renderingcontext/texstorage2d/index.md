@@ -1,13 +1,8 @@
 ---
-title: WebGL2RenderingContext.texStorage2D()
+title: "WebGL2RenderingContext: texStorage2D() method"
+short-title: texStorage2D()
 slug: Web/API/WebGL2RenderingContext/texStorage2D
 page-type: web-api-instance-method
-tags:
-  - API
-  - Method
-  - Reference
-  - WebGL
-  - WebGL2
 browser-compat: api.WebGL2RenderingContext.texStorage2D
 ---
 
@@ -19,7 +14,7 @@ two-dimensional texture storage.
 
 ## Syntax
 
-```js
+```js-nolint
 texStorage2D(target, levels, internalformat, width, height)
 ```
 

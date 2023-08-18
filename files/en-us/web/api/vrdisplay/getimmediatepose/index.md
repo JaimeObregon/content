@@ -1,19 +1,11 @@
 ---
-title: VRDisplay.getImmediatePose()
+title: "VRDisplay: getImmediatePose() method"
+short-title: getImmediatePose()
 slug: Web/API/VRDisplay/getImmediatePose
 page-type: web-api-instance-method
-tags:
-  - API
-  - Deprecated
-  - Method
-  - Deprecated
-  - Reference
-  - VR
-  - VRDisplay
-  - Virtual Reality
-  - WebVR
-  - getImmediatePose()
-  - Non-standard
+status:
+  - deprecated
+  - non-standard
 browser-compat: api.VRDisplay.getImmediatePose
 ---
 
@@ -25,7 +17,7 @@ The **`getImmediatePose()`** method of the {{domxref("VRDisplay")}} interface re
 
 ## Syntax
 
-```js
+```js-nolint
 getImmediatePose()
 ```
 

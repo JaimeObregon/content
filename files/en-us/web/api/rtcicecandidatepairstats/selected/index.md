@@ -1,5 +1,6 @@
 ---
-title: RTCIceCandidatePairStats.selected
+title: "RTCIceCandidatePairStats: selected property"
+short-title: selected
 slug: Web/API/RTCIceCandidatePairStats/selected
 page-type: web-api-instance-property
 browser-compat: api.RTCIceCandidatePairStats.selected
@@ -11,8 +12,8 @@ The _non-standard_, Firefox-specific {{domxref("RTCIceCandidatePairStats")}} pro
 
 ## Syntax
 
-```js
-isSelected = icpStats.selected;
+```js-nolint
+icpStats.selected
 ```
 
 ### Value

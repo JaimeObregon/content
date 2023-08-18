@@ -1,11 +1,7 @@
 ---
-title: 'SyntaxError: missing } after property list'
+title: "SyntaxError: missing } after property list"
 slug: Web/JavaScript/Reference/Errors/Missing_curly_after_property_list
-tags:
-  - Error
-  - Errors
-  - JavaScript
-  - SyntaxError
+page-type: javascript-error
 ---
 
 {{jsSidebar("Errors")}}
@@ -16,7 +12,7 @@ Might be in fact a missing curly bracket, but could also be a missing comma.
 
 ## Message
 
-```
+```plain
 SyntaxError: missing } after property list (Firefox)
 SyntaxError: Unexpected identifier 'c'. Expected '}' to end an object literal. (Safari)
 ```
@@ -39,7 +35,7 @@ also help you to see through the jungle.
 
 Oftentimes, there is a missing comma in your object initializer code:
 
-```js example-bad
+```js-nolint example-bad
 const obj = {
   a: 1,
   b: { myProp: 2 }
@@ -53,7 +49,7 @@ Correct would be:
 const obj = {
   a: 1,
   b: { myProp: 2 },
-  c: 3
+  c: 3,
 };
 ```
 

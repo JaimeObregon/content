@@ -1,13 +1,8 @@
 ---
-title: Selection.extend()
+title: "Selection: extend() method"
+short-title: extend()
 slug: Web/API/Selection/extend
 page-type: web-api-instance-method
-tags:
-  - API
-  - HTML Editing
-  - Method
-  - Reference
-  - Selection
 browser-compat: api.Selection.extend
 ---
 
@@ -19,7 +14,7 @@ will be from the anchor to the new focus, regardless of direction.
 
 ## Syntax
 
-```js
+```js-nolint
 extend(node)
 extend(node, offset)
 ```

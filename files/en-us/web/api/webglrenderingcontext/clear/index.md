@@ -1,13 +1,8 @@
 ---
-title: WebGLRenderingContext.clear()
+title: "WebGLRenderingContext: clear() method"
+short-title: clear()
 slug: Web/API/WebGLRenderingContext/clear
 page-type: web-api-instance-method
-tags:
-  - API
-  - Method
-  - Reference
-  - WebGL
-  - WebGLRenderingContext
 browser-compat: api.WebGLRenderingContext.clear
 ---
 
@@ -24,7 +19,7 @@ method.
 
 ## Syntax
 
-```js
+```js-nolint
 clear(mask)
 ```
 

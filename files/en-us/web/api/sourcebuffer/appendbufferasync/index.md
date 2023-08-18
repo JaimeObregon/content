@@ -1,20 +1,11 @@
 ---
-title: SourceBuffer.appendBufferAsync()
+title: "SourceBuffer: appendBufferAsync() method"
+short-title: appendBufferAsync()
 slug: Web/API/SourceBuffer/appendBufferAsync
 page-type: web-api-instance-method
-tags:
-  - API
-  - Audio
-  - MSE
-  - Media
-  - Media Source Extensions
-  - Method
-  - Non-standard
-  - Reference
-  - SourceBuffer
-  - Video
-  - appendBufferAsync
-  - Experimental
+status:
+  - experimental
+  - non-standard
 browser-compat: api.SourceBuffer.appendBufferAsync
 ---
 
@@ -28,15 +19,14 @@ It returns a {{jsxref("Promise")}} which is fulfilled once the buffer has been a
 
 ## Syntax
 
-```js
+```js-nolint
 appendBufferAsync(source)
 ```
 
 ### Parameters
 
 - `source`
-  - : Either an {{domxref("ArrayBufferView")}}, a {{jsxref("TypedArray")}} or a {{jsxref("DataView")}} object that contains the media segment data you want to add to
-    the `SourceBuffer`.
+  - : Either an {{jsxref("ArrayBuffer")}}, a {{jsxref("TypedArray")}} or a {{jsxref("DataView")}} object that contains the media segment data you want to add to the `SourceBuffer`.
 
 ### Return value
 
@@ -52,7 +42,7 @@ parameters `buffer`, an {{jsxref("ArrayBuffer")}}, a {{jsxref("TypedArray")}}, o
 ```js
 async function fillSourceBuffer(buffer, msBuffer) {
   try {
-    while(true) {
+    while (true) {
       await msBuffer.appendBufferAsync(buffer);
     }
   } catch (e) {

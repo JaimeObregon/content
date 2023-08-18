@@ -1,13 +1,8 @@
 ---
-title: CSSCounterStyleRule.speakAs
+title: "CSSCounterStyleRule: speakAs property"
+short-title: speakAs
 slug: Web/API/CSSCounterStyleRule/speakAs
 page-type: web-api-instance-property
-tags:
-  - API
-  - Property
-  - Reference
-  - speakAs
-  - CSSCounterStyleRule
 browser-compat: api.CSSCounterStyleRule.speakAs
 ---
 
@@ -27,7 +22,7 @@ The following example shows a {{cssxref("@counter-style")}} rule. In JavaScript,
 @counter-style box-corner {
   system: fixed;
   symbols: ◰ ◳ ◲ ◱;
-  suffix: ': ';
+  suffix: ": ";
   speak-as: bullets;
 }
 ```

@@ -1,17 +1,10 @@
 ---
-title: XRSession.preferredReflectionFormat
+title: "XRSession: preferredReflectionFormat property"
+short-title: preferredReflectionFormat
 slug: Web/API/XRSession/preferredReflectionFormat
 page-type: web-api-instance-property
-tags:
-  - API
-  - AR
-  - Augmented Reality
-  - Experimental
-  - Property
-  - Reference
-  - VR
-  - WebXR
-  - WebXR Device API
+status:
+  - experimental
 browser-compat: api.XRSession.preferredReflectionFormat
 ---
 
@@ -23,10 +16,10 @@ The _read-only_ **`preferredReflectionFormat`** property of the {{DOMxRef("XRSes
 
 A string representing the reflection format. Possible values:
 
-| XRReflectionFormat | WebGL Format  | WebGL Internal Format  | WebGPU Format  | HDR  |
-|---|---|---|---|---|
-| "srgba8" | RGBA  | SRGB8_ALPHA8  | "rgba8unorm-srgb"  |  |
-| "rgba16f" | RGBA  | RGBA16F  | "rgba16float"  | ✓ |
+| XRReflectionFormat | WebGL Format | WebGL Internal Format | WebGPU Format     | HDR |
+| ------------------ | ------------ | --------------------- | ----------------- | --- |
+| "srgba8"           | RGBA         | SRGB8_ALPHA8          | "rgba8unorm-srgb" |     |
+| "rgba16f"          | RGBA         | RGBA16F               | "rgba16float"     | ✓   |
 
 ## Examples
 
@@ -36,7 +29,7 @@ You can request a light probe with {{domxref("XRSession.requestLightProbe()")}} 
 
 ```js
 const lightProbe = await xrSession.requestLightProbe({
-  reflectionFormat: xrSession.preferredReflectionFormat
+  reflectionFormat: xrSession.preferredReflectionFormat,
 });
 ```
 

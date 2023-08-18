@@ -1,15 +1,8 @@
 ---
-title: FileReader.abort()
+title: "FileReader: abort() method"
+short-title: abort()
 slug: Web/API/FileReader/abort
 page-type: web-api-instance-method
-tags:
-  - API
-  - File API
-  - FileReader
-  - Files
-  - Method
-  - Reference
-  - abort
 browser-compat: api.FileReader.abort
 ---
 
@@ -20,7 +13,7 @@ the {{domxref("FileReader.readyState","readyState")}} will be `DONE`.
 
 ## Syntax
 
-```js
+```js-nolint
 abort()
 ```
 

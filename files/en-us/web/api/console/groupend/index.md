@@ -1,14 +1,8 @@
 ---
-title: console.groupEnd()
+title: "console: groupEnd() method"
+short-title: groupEnd()
 slug: Web/API/console/groupEnd
 page-type: web-api-instance-method
-tags:
-  - API
-  - DOM
-  - Debugging
-  - Method
-  - Web Development
-  - web console
 browser-compat: api.console.groupEnd
 ---
 
@@ -20,7 +14,7 @@ The **`console.groupEnd()`** method exits the current inline group in the [Web c
 
 ## Syntax
 
-```js
+```js-nolint
 groupEnd()
 ```
 

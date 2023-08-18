@@ -1,5 +1,6 @@
 ---
-title: RTCInboundRtpStreamStats.fecPacketsReceived
+title: "RTCInboundRtpStreamStats: fecPacketsReceived property"
+short-title: fecPacketsReceived
 slug: Web/API/RTCInboundRtpStreamStats/fecPacketsReceived
 page-type: web-api-instance-property
 browser-compat: api.RTCInboundRtpStreamStats.fecPacketsReceived
@@ -18,8 +19,8 @@ transit.
 
 ## Syntax
 
-```js
-const fecPacketsReceived = rtcInboundRtpStreamStats.fecPacketsReceived;
+```js-nolint
+const fecPacketsReceived = rtcInboundRtpStreamStats.fecPacketsReceived
 ```
 
 ### Value

@@ -1,12 +1,7 @@
 ---
-title: >-
-  SyntaxError: a declaration in the head of a for-of loop can't have an
-  initializer
+title: "SyntaxError: a declaration in the head of a for-of loop can't have an initializer"
 slug: Web/JavaScript/Reference/Errors/Invalid_for-of_initializer
-tags:
-  - Error
-  - JavaScript
-  - SyntaxError
+page-type: javascript-error
 ---
 
 {{jsSidebar("Errors")}}
@@ -15,7 +10,7 @@ The JavaScript exception "a declaration in the head of a for-of loop can't have 
 
 ## Message
 
-```
+```plain
 SyntaxError: for-of loop variable declaration may not have an initializer. (V8-based)
 SyntaxError: a declaration in the head of a for-of loop can't have an initializer (Firefox)
 SyntaxError: Cannot assign to the loop variable inside a for-of loop header. (Safari)
@@ -33,7 +28,7 @@ The head of a [for...of](/en-US/docs/Web/JavaScript/Reference/Statements/for...o
 
 ### Invalid for-of loop
 
-```js example-bad
+```js-nolint example-bad
 const iterable = [10, 20, 30];
 
 for (const value = 50 of iterable) {

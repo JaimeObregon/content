@@ -1,17 +1,10 @@
 ---
-title: XRLightEstimate.primaryLightDirection
+title: "XRLightEstimate: primaryLightDirection property"
+short-title: primaryLightDirection
 slug: Web/API/XRLightEstimate/primaryLightDirection
 page-type: web-api-instance-property
-tags:
-  - API
-  - AR
-  - Augmented Reality
-  - Experimental
-  - Property
-  - Reference
-  - VR
-  - WebXR
-  - WebXR Device API
+status:
+  - experimental
 browser-compat: api.XRLightEstimate.primaryLightDirection
 ---
 
@@ -25,7 +18,7 @@ A {{domxref("DOMPointReadOnly")}} object. If no estimated values from the user's
 
 ## Examples
 
-Within an {{domxref("XRFrame")}} loop, you can use the `primaryLightDirection` and  `primaryLightIntensity` properties
+Within an {{domxref("XRFrame")}} loop, you can use the `primaryLightDirection` and `primaryLightIntensity` properties
 to render shadows based on the most prominent light source, for example.
 
 ```js

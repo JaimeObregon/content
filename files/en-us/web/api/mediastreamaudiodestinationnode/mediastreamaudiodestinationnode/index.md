@@ -1,14 +1,8 @@
 ---
-title: MediaStreamAudioDestinationNode()
+title: "MediaStreamAudioDestinationNode: MediaStreamAudioDestinationNode() constructor"
+short-title: MediaStreamAudioDestinationNode()
 slug: Web/API/MediaStreamAudioDestinationNode/MediaStreamAudioDestinationNode
 page-type: web-api-constructor
-tags:
-  - API
-  - Audio
-  - Constructor
-  - MediaStreamAudioDestinationNode
-  - Reference
-  - Web Audio API
 browser-compat: api.MediaStreamAudioDestinationNode.MediaStreamAudioDestinationNode
 ---
 
@@ -18,7 +12,7 @@ The **`MediaStreamAudioDestinationNode()`** constructor of the [Web Audio API](/
 
 ## Syntax
 
-```js
+```js-nolint
 new MediaStreamAudioDestinationNode(context)
 new MediaStreamAudioDestinationNode(context, options)
 ```

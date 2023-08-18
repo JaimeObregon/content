@@ -1,13 +1,8 @@
 ---
-title: FontFaceSet.has()
+title: "FontFaceSet: has() method"
+short-title: has()
 slug: Web/API/FontFaceSet/has
 page-type: web-api-instance-method
-tags:
-  - API
-  - Method
-  - Reference
-  - has
-  - FontFaceSet
 browser-compat: api.FontFaceSet.has
 ---
 
@@ -17,7 +12,7 @@ The **`has()`** method of the {{domxref("FontFaceSet")}} interface returns a {{j
 
 ## Syntax
 
-```js
+```js-nolint
 has(value)
 ```
 

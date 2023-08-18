@@ -1,13 +1,8 @@
 ---
-title: Element.after()
+title: "Element: after() method"
+short-title: after()
 slug: Web/API/Element/after
 page-type: web-api-instance-method
-tags:
-  - API
-  - DOM
-  - Method
-  - Node
-  - Reference
 browser-compat: api.Element.after
 ---
 
@@ -20,10 +15,10 @@ String objects are inserted as equivalent {{domxref("Text")}} nodes.
 
 ## Syntax
 
-```js
+```js-nolint
 after(node1)
 after(node1, node2)
-after(node1, node2, /* … ,*/ nodeN)
+after(node1, node2, /* …, */ nodeN)
 ```
 
 ### Parameters

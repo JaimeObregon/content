@@ -1,18 +1,8 @@
 ---
-title: MediaKeySystemAccess.getConfiguration()
+title: "MediaKeySystemAccess: getConfiguration() method"
+short-title: getConfiguration()
 slug: Web/API/MediaKeySystemAccess/getConfiguration
 page-type: web-api-instance-method
-tags:
-  - API
-  - Audio
-  - EncryptedMediaExtensions
-  - Media
-  - MediaKeySystemAccess
-  - Method
-  - NeedsExample
-  - Reference
-  - Video
-  - getConfiguration
 browser-compat: api.MediaKeySystemAccess.getConfiguration
 ---
 
@@ -34,7 +24,7 @@ the following configuration options:
 
 ## Syntax
 
-```js
+```js-nolint
 getConfiguration()
 ```
 

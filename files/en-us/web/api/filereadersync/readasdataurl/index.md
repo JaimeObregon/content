@@ -1,5 +1,6 @@
 ---
-title: FileReaderSync.readAsDataURL()
+title: "FileReaderSync: readAsDataURL() method"
+short-title: readAsDataURL()
 slug: Web/API/FileReaderSync/readAsDataURL
 page-type: web-api-instance-method
 browser-compat: api.FileReaderSync.readAsDataURL
@@ -11,9 +12,9 @@ The `readAsDataURL()` method of the {{DOMxRef("FileReaderSync")}} interface allo
 
 ## Syntax
 
-```js
-readAsDataURL(File);
-readAsDataURL(Blob);
+```js-nolint
+readAsDataURL(File)
+readAsDataURL(Blob)
 ```
 
 ### Parameters

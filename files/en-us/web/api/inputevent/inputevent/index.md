@@ -1,16 +1,8 @@
 ---
-title: InputEvent()
+title: "InputEvent: InputEvent() constructor"
+short-title: InputEvent()
 slug: Web/API/InputEvent/InputEvent
 page-type: web-api-constructor
-tags:
-  - API
-  - Constructor
-  - DOM
-  - DOM Events
-  - Input
-  - InputEvent
-  - Reference
-  - events
 browser-compat: api.InputEvent.InputEvent
 ---
 
@@ -20,7 +12,7 @@ The **`InputEvent()`** constructor creates a new {{domxref("InputEvent")}} objec
 
 ## Syntax
 
-```js
+```js-nolint
 new InputEvent(type)
 new InputEvent(type, options)
 ```

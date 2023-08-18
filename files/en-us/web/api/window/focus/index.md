@@ -1,13 +1,8 @@
 ---
-title: Window.focus()
+title: "Window: focus() method"
+short-title: focus()
 slug: Web/API/Window/focus
 page-type: web-api-instance-method
-tags:
-  - API
-  - Gecko
-  - HTML DOM
-  - Method
-  - Window
 browser-compat: api.Window.focus
 ---
 
@@ -17,7 +12,7 @@ Makes a request to bring the window to the front. It may fail due to user settin
 
 ## Syntax
 
-```js
+```js-nolint
 focus()
 ```
 
@@ -32,7 +27,9 @@ None ({{jsxref("undefined")}}).
 ## Examples
 
 ```js
-if (clicked) { window.focus(); }
+if (clicked) {
+  window.focus();
+}
 ```
 
 ## Specifications

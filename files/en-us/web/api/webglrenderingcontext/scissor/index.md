@@ -1,13 +1,8 @@
 ---
-title: WebGLRenderingContext.scissor()
+title: "WebGLRenderingContext: scissor() method"
+short-title: scissor()
 slug: Web/API/WebGLRenderingContext/scissor
 page-type: web-api-instance-method
-tags:
-  - API
-  - Method
-  - Reference
-  - WebGL
-  - WebGLRenderingContext
 browser-compat: api.WebGLRenderingContext.scissor
 ---
 
@@ -18,7 +13,7 @@ the drawing to a specified rectangle.
 
 ## Syntax
 
-```js
+```js-nolint
 scissor(x, y, width, height)
 ```
 

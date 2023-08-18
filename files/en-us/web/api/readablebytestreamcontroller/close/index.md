@@ -1,14 +1,8 @@
 ---
-title: ReadableByteStreamController.close()
+title: "ReadableByteStreamController: close() method"
+short-title: close()
 slug: Web/API/ReadableByteStreamController/close
 page-type: web-api-instance-method
-tags:
-  - API
-  - Method
-  - ReadableByteStreamController
-  - Reference
-  - Streams
-  - close
 browser-compat: api.ReadableByteStreamController.close
 ---
 
@@ -23,7 +17,7 @@ This might be called by the underlying source when its data source has been exha
 
 ## Syntax
 
-```js
+```js-nolint
 close()
 ```
 
@@ -68,3 +62,4 @@ For example if using a {{domxref("ReadableStreamBYOBReader")}} any {{domxref("Re
 ## See also
 
 - [Using readable byte streams](/en-US/docs/Web/API/Streams_API/Using_readable_byte_streams)
+- {{domxref("ReadableByteStreamController")}}

@@ -1,13 +1,8 @@
 ---
-title: Selection.selectAllChildren()
+title: "Selection: selectAllChildren() method"
+short-title: selectAllChildren()
 slug: Web/API/Selection/selectAllChildren
 page-type: web-api-instance-method
-tags:
-  - API
-  - HTML Editing
-  - Method
-  - Reference
-  - Selection
 browser-compat: api.Selection.selectAllChildren
 ---
 
@@ -18,7 +13,7 @@ children of the specified node to the selection. Previous selection is lost.
 
 ## Syntax
 
-```js
+```js-nolint
 selectAllChildren(parentNode)
 ```
 
@@ -51,10 +46,10 @@ None ({{jsxref("undefined")}}).
 ### JavaScript
 
 ```js
-const button = document.querySelector('button');
-const footer = document.querySelector('footer');
+const button = document.querySelector("button");
+const footer = document.querySelector("footer");
 
-button.addEventListener('click', (e) => {
+button.addEventListener("click", (e) => {
   window.getSelection().selectAllChildren(footer);
 });
 ```

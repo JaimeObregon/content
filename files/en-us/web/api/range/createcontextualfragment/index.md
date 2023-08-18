@@ -1,14 +1,8 @@
 ---
-title: Range.createContextualFragment()
+title: "Range: createContextualFragment() method"
+short-title: createContextualFragment()
 slug: Web/API/Range/createContextualFragment
 page-type: web-api-instance-method
-tags:
-  - API
-  - DOM
-  - DOM Reference
-  - Method
-  - Range
-  - Reference
 browser-compat: api.Range.createContextualFragment
 ---
 
@@ -24,7 +18,7 @@ algorithm is invoked with `body` as the context instead.
 
 ## Syntax
 
-```js
+```js-nolint
 createContextualFragment(tagString)
 ```
 

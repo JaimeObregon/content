@@ -1,11 +1,10 @@
 ---
-title: CustomEvent.initCustomEvent()
+title: "CustomEvent: initCustomEvent() method"
+short-title: initCustomEvent()
 slug: Web/API/CustomEvent/initCustomEvent
 page-type: web-api-instance-method
-tags:
-  - Deprecated
-  - Method
-  - Reference
+status:
+  - deprecated
 browser-compat: api.CustomEvent.initCustomEvent
 ---
 
@@ -25,8 +24,8 @@ Once dispatched, it doesn't do anything anymore.
 
 ## Syntax
 
-```js
-event.initCustomEvent(type, canBubble, cancelable, detail);
+```js-nolint
+event.initCustomEvent(type, canBubble, cancelable, detail)
 ```
 
 ### Parameters

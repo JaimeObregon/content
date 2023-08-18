@@ -1,15 +1,8 @@
 ---
-title: HTMLSlotElement.assignedElements()
+title: "HTMLSlotElement: assignedElements() method"
+short-title: assignedElements()
 slug: Web/API/HTMLSlotElement/assignedElements
 page-type: web-api-instance-method
-tags:
-  - API
-  - HTMLSlotElement
-  - Method
-  - Reference
-  - Web Components
-  - assignedElements
-  - shadow dom
 browser-compat: api.HTMLSlotElement.assignedElements
 ---
 
@@ -23,7 +16,7 @@ If the `flatten` option is set to `true`, it returns a sequence of both the elem
 
 ## Syntax
 
-```js
+```js-nolint
 assignedElements()
 assignedElements(options)
 ```
@@ -46,8 +39,8 @@ An array of elements.
 ## Examples
 
 ```js
-let slots = this.shadowRoot.querySelector('slot');
-let elements = slots.assignedElements({flatten: true});
+let slots = this.shadowRoot.querySelector("slot");
+let elements = slots.assignedElements({ flatten: true });
 ```
 
 ## Specifications

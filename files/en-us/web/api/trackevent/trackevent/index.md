@@ -1,17 +1,8 @@
 ---
-title: TrackEvent()
+title: "TrackEvent: TrackEvent() constructor"
+short-title: TrackEvent()
 slug: Web/API/TrackEvent/TrackEvent
 page-type: web-api-constructor
-tags:
-  - API
-  - Audio
-  - Constructor
-  - HTML DOM
-  - Media
-  - Reference
-  - TrackEvent
-  - Tracks
-  - Video
 browser-compat: api.TrackEvent.TrackEvent
 ---
 
@@ -24,7 +15,7 @@ occurred on a list of tracks ({{domxref("AudioTrackList")}},
 
 ## Syntax
 
-```js
+```js-nolint
 new TrackEvent(type)
 new TrackEvent(type, options)
 ```

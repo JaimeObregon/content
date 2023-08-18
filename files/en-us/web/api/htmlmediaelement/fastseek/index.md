@@ -1,15 +1,8 @@
 ---
-title: HTMLMediaElement.fastSeek()
+title: "HTMLMediaElement: fastSeek() method"
+short-title: fastSeek()
 slug: Web/API/HTMLMediaElement/fastSeek
 page-type: web-api-instance-method
-tags:
-  - API
-  - Audio
-  - HTMLMediaElement
-  - Media
-  - Method
-  - Reference
-  - fastSeek
 browser-compat: api.HTMLMediaElement.fastSeek
 ---
 
@@ -23,7 +16,7 @@ media to the new time with precision tradeoff.
 
 ## Syntax
 
-```js
+```js-nolint
 fastSeek(time)
 ```
 

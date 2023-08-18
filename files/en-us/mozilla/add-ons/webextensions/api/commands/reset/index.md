@@ -1,15 +1,7 @@
 ---
 title: commands.reset()
 slug: Mozilla/Add-ons/WebExtensions/API/commands/reset
-tags:
-  - API
-  - Add-ons
-  - Extensions
-  - Method
-  - Reference
-  - WebExtensions
-  - commands
-  - reset
+page-type: webextension-api-function
 browser-compat: webextensions.api.commands.reset
 ---
 
@@ -23,7 +15,7 @@ This is an asynchronous function that returns a [`Promise`](/en-US/docs/Web/Java
 
 ## Syntax
 
-```js
+```js-nolint
 browser.commands.reset(
   name // string
 );
@@ -47,13 +39,13 @@ A [`Promise`](/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise) that 
 Resets the command named "my-command" when the user clicks the "reset" button:
 
 ```js
-const commandName = 'my-command';
+const commandName = "my-command";
 
 function resetShortcut() {
   browser.commands.reset(commandName);
 }
 
-document.querySelector('#reset').addEventListener('click', resetShortcut);
+document.querySelector("#reset").addEventListener("click", resetShortcut);
 ```
 
 {{WebExtExamples}}

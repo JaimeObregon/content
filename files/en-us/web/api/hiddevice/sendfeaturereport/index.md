@@ -1,14 +1,10 @@
 ---
-title: HIDDevice.sendFeatureReport()
+title: "HIDDevice: sendFeatureReport() method"
+short-title: sendFeatureReport()
 slug: Web/API/HIDDevice/sendFeatureReport
 page-type: web-api-instance-method
-tags:
-  - API
-  - Method
-  - Reference
-  - sendFeatureReport
-  - HIDDevice
-  - Experimental
+status:
+  - experimental
 browser-compat: api.HIDDevice.sendFeatureReport
 ---
 
@@ -20,7 +16,7 @@ The `reportId` for each of the report formats that this device supports can be r
 
 ## Syntax
 
-```js
+```js-nolint
 sendFeatureReport(reportId, data)
 ```
 

@@ -1,17 +1,8 @@
 ---
-title: XMLHttpRequest.overrideMimeType()
+title: "XMLHttpRequest: overrideMimeType() method"
+short-title: overrideMimeType()
 slug: Web/API/XMLHttpRequest/overrideMimeType
 page-type: web-api-instance-method
-tags:
-  - API
-  - File Type
-  - MIME Type
-  - Method
-  - Reference
-  - XHR
-  - XHR MIME Type
-  - XMLHttpRequest
-  - overrideMimeType
 browser-compat: api.XMLHttpRequest.overrideMimeType
 ---
 
@@ -29,7 +20,7 @@ as such. This method must be called before calling {{domxref("XMLHttpRequest.sen
 
 ## Syntax
 
-```js
+```js-nolint
 overrideMimeType(mimeType)
 ```
 

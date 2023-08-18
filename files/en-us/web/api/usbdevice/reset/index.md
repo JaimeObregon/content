@@ -1,17 +1,10 @@
 ---
-title: USBDevice.reset()
+title: "USBDevice: reset() method"
+short-title: reset()
 slug: Web/API/USBDevice/reset
 page-type: web-api-instance-method
-tags:
-  - API
-  - Method
-  - Reference
-  - USB
-  - USBDevice
-  - WebUSB
-  - WebUSB API
-  - reset
-  - Experimental
+status:
+  - experimental
 browser-compat: api.USBDevice.reset
 ---
 
@@ -23,7 +16,7 @@ app operations canceled and their promises rejected.
 
 ## Syntax
 
-```js
+```js-nolint
 reset()
 ```
 

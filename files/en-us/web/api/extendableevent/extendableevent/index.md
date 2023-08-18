@@ -1,14 +1,8 @@
 ---
-title: ExtendableEvent()
+title: "ExtendableEvent: ExtendableEvent() constructor"
+short-title: ExtendableEvent()
 slug: Web/API/ExtendableEvent/ExtendableEvent
 page-type: web-api-constructor
-tags:
-  - API
-  - Constructor
-  - ExtendableEvent
-  - Reference
-  - Service Workers
-  - ServiceWorker
 browser-compat: api.ExtendableEvent.ExtendableEvent
 ---
 
@@ -18,7 +12,7 @@ The **`ExtendableEvent()`** constructor creates a new {{domxref("ExtendableEvent
 
 ## Syntax
 
-```js
+```js-nolint
 new ExtendableEvent(type)
 new ExtendableEvent(type, options)
 ```

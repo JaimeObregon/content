@@ -1,13 +1,8 @@
 ---
-title: URLSearchParams.keys()
+title: "URLSearchParams: keys() method"
+short-title: keys()
 slug: Web/API/URLSearchParams/keys
 page-type: web-api-instance-method
-tags:
-  - API
-  - Method
-  - Reference
-  - URL API
-  - URLSearchParams
 browser-compat: api.URLSearchParams.keys
 ---
 
@@ -22,7 +17,7 @@ objects.
 
 ## Syntax
 
-```js
+```js-nolint
 keys()
 ```
 
@@ -48,7 +43,7 @@ for (const key of searchParams.keys()) {
 
 The result is:
 
-```
+```plain
 key1
 key2
 ```

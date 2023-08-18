@@ -1,13 +1,8 @@
 ---
-title: WebGLRenderingContext.getShaderSource()
+title: "WebGLRenderingContext: getShaderSource() method"
+short-title: getShaderSource()
 slug: Web/API/WebGLRenderingContext/getShaderSource
 page-type: web-api-instance-method
-tags:
-  - API
-  - Method
-  - Reference
-  - WebGL
-  - WebGLRenderingContext
 browser-compat: api.WebGLRenderingContext.getShaderSource
 ---
 
@@ -19,7 +14,7 @@ The **`WebGLRenderingContext.getShaderSource()`** method of the
 
 ## Syntax
 
-```js
+```js-nolint
 getShaderSource(shader)
 ```
 

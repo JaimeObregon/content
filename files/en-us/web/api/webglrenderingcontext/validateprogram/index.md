@@ -1,13 +1,8 @@
 ---
-title: WebGLRenderingContext.validateProgram()
+title: "WebGLRenderingContext: validateProgram() method"
+short-title: validateProgram()
 slug: Web/API/WebGLRenderingContext/validateProgram
 page-type: web-api-instance-method
-tags:
-  - API
-  - Method
-  - Reference
-  - WebGL
-  - WebGLRenderingContext
 browser-compat: api.WebGLRenderingContext.validateProgram
 ---
 
@@ -20,7 +15,7 @@ used in the current WebGL state.
 
 ## Syntax
 
-```js
+```js-nolint
 validateProgram(program)
 ```
 

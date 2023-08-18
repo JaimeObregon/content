@@ -1,10 +1,8 @@
 ---
-title: EventTarget()
+title: "EventTarget: EventTarget() constructor"
+short-title: EventTarget()
 slug: Web/API/EventTarget/EventTarget
 page-type: web-api-constructor
-tags:
-  - Constructor
-  - Reference
 browser-compat: api.EventTarget.EventTarget
 ---
 
@@ -16,8 +14,8 @@ The **`EventTarget()`** constructor creates a new {{domxref("EventTarget")}} obj
 
 ## Syntax
 
-```js
-new EventTarget();
+```js-nolint
+new EventTarget()
 ```
 
 ### Parameters
@@ -37,11 +35,13 @@ class MyEventTarget extends EventTarget {
     this._secret = mySecret;
   }
 
-  get secret() { return this._secret; }
-};
+  get secret() {
+    return this._secret;
+  }
+}
 
 let myEventTarget = new MyEventTarget(5);
-let value = myEventTarget.secret;  // === 5
+let value = myEventTarget.secret; // === 5
 myEventTarget.addEventListener("foo", (e) => {
   myEventTarget._secret = e.detail;
 });

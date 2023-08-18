@@ -1,13 +1,10 @@
 ---
-title: Bluetooth.getAvailability()
+title: "Bluetooth: getAvailability() method"
+short-title: getAvailability()
 slug: Web/API/Bluetooth/getAvailability
 page-type: web-api-instance-method
-tags:
-  - API
-  - Bluetooth
-  - Reference
-  - Web Bluetooth API
-  - Experimental
+status:
+  - experimental
 browser-compat: api.Bluetooth.getAvailability
 ---
 
@@ -22,7 +19,7 @@ The **`getAvailability()`** method of the {{DOMxRef("Bluetooth")}} interface ret
 
 ## Syntax
 
-```js
+```js-nolint
 getAvailability()
 ```
 
